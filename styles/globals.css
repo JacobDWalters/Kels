@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-      @apply bg-[#f2f2f2] text-[#1f2937] tracking-wide font-serif
+      @apply bg-[#ebeaea] text-[#1f2937] tracking-wide font-serif
     }
   
     h1, h2, h3, h4, h5, h6 {
@@ -24,7 +24,7 @@
     }
   
     button {
-      @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5b7379] to-[#b5bfc1] text-white
+      @apply shadow-xl shadow-gray-200 rounded-sm uppercase
     }
   }
   

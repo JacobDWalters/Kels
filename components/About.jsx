@@ -6,17 +6,17 @@ import fam from "../public/kokFam.png";
 const About = () => {
   return (
     <div className="pt-28 lg:pt-44">
-      <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col px-10 align-middle">
-          <h1>Who I Am</h1>
-          <p className="pt-10">
+      <div className="flex flex-col md:flex-row h-fit">
+        <div className="flex flex-col px-10 mx-4 align-middle bg-[#c4c4c4] h-fit md:ml-6 md:mr-0 z-[2] md:w-[75%]">
+          <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">Who I Am</h1>
+          <p className="text-sm lg:text-base pt-2 lg:pt-10">
             Hi friend! It’s nice to meet you! I was born and raised in a town
             called Caledonia just outside Grand Rapids, MI. I have spent many
             years enjoying all the beauty that Michigan has to offer. From
             snowboarding in the winter to boating on Michigan’s Great Lakes in
             the summer, I am thankful to call this beautiful state home.
           </p>
-          <p className="pt-4">
+          <p className="text-sm lg:text-base pt-3 pb-1 lg:py-4">
             I have found a joy and passion for real estate. I love helping
             others find the perfect home! My passion for helping others started
             with studying medical assisting at Davenport University. After many
@@ -33,13 +33,13 @@ const About = () => {
           width="auto"
           height="auto"
           alt="kels"
-          className="px-5 rounded md:w-[30%] pt-5"
+          className="px-28 md:pr-5 md:pl-0 md:ml-[-50px] md:w-[30%] pt-2 md:pt-14"
         />
       </div>
-      <div className="flex flex-col md:flex-row-reverse pt-20">
-        <div className="px-10">
-          <h1>My Family</h1>
-          <p className="pt-10">
+      <div className="flex flex-col md:flex-row-reverse pt-4 ">
+        <div className="px-10 bg-[#c4c4c4] h-fit mr-6 z-[2] py-4">
+          <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">My Family</h1>
+          <p className="text-sm lg:text-base pt-2 lg:pt-10">
             Besides being a realtor, I am also a wife and mama! As our family
             has grown I have appreciated our home even more. It’s a space for
             our family and friends to gather, a space of peace in a chaotic
@@ -53,7 +53,7 @@ const About = () => {
           width="500px"
           height="auto"
           alt="fam"
-          className="px-5 md:w-[40%] pt-5"
+          className="md:w-[40%] px-20 md:pl-5 md:pr-0 md:mr-[-50px] pt-2 md:pt-14"
         />
       </div>
     </div>

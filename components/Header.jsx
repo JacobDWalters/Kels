@@ -54,8 +54,8 @@ const Header = () => {
       style={{ backgroundColor: "black" }}
       className={
         shadow
-          ? "fixed w-full h-14 lg:h-20 shadow-xl z-[1]"
-          : "fixed w-full h-14 lg:h-20 z-[1]"
+          ? "fixed w-full h-14 lg:h-20 shadow-xl z-[10]"
+          : "fixed w-full h-14 lg:h-20 z-[10]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -74,7 +74,7 @@ const Header = () => {
             className={
               nav
                 ? "absolute top-0 left-0 flex z-[0] w-[100px] h-[100px]"
-                : "absolute top-0 left-0 flex z-[2] w-[100px] h-[100px] lg:left-auto justify-center lg:w-[150px] lg:h-[150px]"
+                : "absolute top-0 left-0 flex z-[10] w-[100px] h-[100px] lg:left-auto justify-center lg:w-[150px] lg:h-[150px]"
             }
           />
         </Link>

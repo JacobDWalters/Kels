@@ -37,7 +37,7 @@ const About = () => {
         />
       </div>
       <div className="flex flex-col md:flex-row-reverse pt-4 ">
-        <div className="px-10 bg-[#c4c4c4] h-fit mr-6 z-[2] py-4">
+        <div className="flex flex-col px-10 mx-4 align-middle bg-[#c4c4c4] h-fit md:ml-0 md:mr-6 z-[2]">
           <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">My Family</h1>
           <p className="text-sm lg:text-base pt-2 lg:pt-10">
             Besides being a realtor, I am also a wife and mama! As our family
@@ -53,7 +53,7 @@ const About = () => {
           width="500px"
           height="auto"
           alt="fam"
-          className="md:w-[40%] px-20 md:pl-5 md:pr-0 md:mr-[-50px] pt-2 md:pt-14"
+          className="md:w-[40%] px-12 md:pl-5 md:pr-0 md:mr-[-50px] pt-2 md:pt-14"
         />
       </div>
     </div>

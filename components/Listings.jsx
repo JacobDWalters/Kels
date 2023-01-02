@@ -8,7 +8,7 @@ import house5 from "../public/house5.png";
 
 const Listings = () => {
   return (
-    <div className="mt-6 bg-black">
+    <div className="mt-6 bg-black shadow-xl">
       <h1 className="text-[#ebeaea] flex py-16 px-6 text-center justify-center">
         Looking For the Perfect Home?
       </h1>

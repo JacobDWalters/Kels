@@ -3,6 +3,7 @@ import About from '../components/About'
 import Listings from '../components/Listings'
 import Sell from '../components/Sell'
 import Contact from '../components/Contact'
+import Reviews from '../components/Reviews'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Listings />
       <Sell />
       <Contact />
+      <Reviews />
     </>
   )
 }

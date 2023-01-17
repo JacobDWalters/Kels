@@ -4,6 +4,7 @@ import Listings from '../components/Listings'
 import Sell from '../components/Sell'
 import Contact from '../components/Contact'
 import Reviews from '../components/Reviews'
+import Main from '../components/Main'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <meta name="description" content="Helping You Find Home" />
       </Head>
       <About />
-      <Sell />
+      <Main />
       <Reviews />
       <Contact />
     </>

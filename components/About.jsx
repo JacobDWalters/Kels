@@ -5,10 +5,10 @@ import fam from "../public/kokFam.png";
 
 const About = () => {
   return (
-    <div className="pt-28 lg:pt-44">
+    <div className="pt-28 lg:pt-44 pb-10">
       <div className="flex flex-col md:flex-row h-fit">
         <div className="flex flex-col px-10 mx-4 align-middle bg-[#c4c4c4] h-fit md:ml-6 md:mr-0 z-[2] md:w-[75%]">
-          <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">Who I Am</h1>
+          <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">Hi, I'm Kelsey!</h1>
           <p className="text-sm lg:text-base pt-2 lg:pt-10">
             Hi friend! It’s nice to meet you! I was born and raised in a town
             called Caledonia just outside Grand Rapids, MI. I have spent many
@@ -38,7 +38,7 @@ const About = () => {
       </div>
       <div className="flex flex-col md:flex-row-reverse pt-4 ">
         <div className="flex flex-col px-10 mx-4 align-middle bg-[#c4c4c4] h-fit md:ml-0 md:mr-6 z-[2]">
-          <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">My Family</h1>
+          <h1 className="text-xl lg:text-5xl pt-1 lg:pt-4">Meet My Family</h1>
           <p className="text-sm lg:text-base pt-2 lg:pt-10">
             Besides being a realtor, I am also a wife and mama! As our family
             has grown I have appreciated our home even more. It’s a space for

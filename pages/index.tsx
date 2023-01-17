@@ -14,7 +14,6 @@ export default function Home() {
         <meta name="description" content="Helping You Find Home" />
       </Head>
       <About />
-      <Listings />
       <Sell />
       <Reviews />
       <Contact />

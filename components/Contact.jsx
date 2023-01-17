@@ -15,8 +15,8 @@ const Contact = () => {
   // };
 
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+    <div id="contact">
+      <div className="max-w-[1240px] m-auto px-2 py-10 w-full">
         <p className="text-xl tracking-widest uppercase">Contact</p>
         <h2 className="py-4 ">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
@@ -145,9 +145,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12">
+        <div className="flex justify-center pt-6">
           <Link href="/">
-            <div className="p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="p-2 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiChevronDoubleUp size={30} className="" />
             </div>
           </Link>

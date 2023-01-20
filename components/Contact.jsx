@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import {
+  AiOutlineMail,
+  AiOutlineInstagram,
+  AiOutlineFacebook,
+} from "react-icons/ai";
 import { HiChevronDoubleUp } from "react-icons/hi";
 import contact from "../public/contact.png";
 // import { useForm } from "react-hook-form";
@@ -17,8 +19,11 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="max-w-[1240px] m-auto px-2 py-10 w-full">
-        <p className="text-xl tracking-widest uppercase">Contact</p>
-        <h2 className="py-4 ">Get In Touch</h2>
+        <h2 className="py-4 ">Lets Start Your Journey</h2>
+        <p>
+          Fill out the contact form below and I will reach out, or conncet on
+          social media to learn more about me
+        </p>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full p-4 hover:scale-105 ease-in duration-300 bg-[#c4c4c4]">
@@ -42,26 +47,26 @@ const Contact = () => {
                 <p>Connect with Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/jacob-d-walters/"
+                    href="https://www.facebook.com/kelsey.denhartigh"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="bg-black rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-white">
-                      <FaLinkedinIn />
+                    <div className="bg-black rounded-full p-5 text-3xl cursor-pointer hover:scale-110 ease-in duration-300 text-white">
+                      <AiOutlineInstagram />
                     </div>
                   </a>
 
                   <a
-                    href="https://github.com/JacobDWalters"
+                    href="https://www.instagram.com/kelskok/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="bg-black text-white rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub />
+                    <div className="bg-black text-white rounded-full p-5 text-3xl cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineFacebook />
                     </div>
                   </a>
-                  <a href="mailto:jacob.d.walters22@gmail.com">
-                    <div className="bg-black text-white rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <a href="mailto:kelsey.denhartigh@gmail.com">
+                    <div className="bg-black text-white rounded-full p-5 text-3xl cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </a>
